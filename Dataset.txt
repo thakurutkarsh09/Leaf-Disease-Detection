@@ -1,0 +1,3 @@
+Data is collected from kaggle:
+There are 15 categories of infected plant leaves in training and testing sets of pepper, potato, and tomato. 19384 images in training set and 1254 images in testing set.
+for dataset used in this project visit : https://www.kaggle.com/vasanthkumar14/plant-disease?select=drive
