@@ -49,3 +49,4 @@ def predict_img():
                  output=category[i]
       output=Label(top1,text=output).grid(row=1,column=0)
 window.mainloop()
+
