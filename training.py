@@ -1,0 +1,11 @@
+ephocs=10
+steps_per_epoch=train_generator.n//train_generator.batch_size
+steps_per_epoch
+validation_steps=validation_generator.n//validation_generator.batch_size
+validation_steps
+detection.fit(x=train_generator,
+                    steps_per_epoch=steps_per_epoch,
+                    epochs=ephocs,
+                    validation_data=validation_generator,
+                    validation_steps=validation_steps)
+detection.save('Plant_Disease_Detection.h5')
